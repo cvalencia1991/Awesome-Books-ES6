@@ -1,7 +1,4 @@
 
-/* import {books} from "./Constructor.js"; */
-
-
 export class methods {
   addbook =(books)=> {
     const productCard = document.getElementById('booklist');
@@ -14,18 +11,15 @@ export class methods {
       <div>
           `;
     productCard.appendChild(element);
-/*     debugger; */
     }
-/*
     resetform() {
       document.getElementById('books').reset();
     }
-
     removebook(element) {
       if (element.name === 'deletebook') {
         element.parentElement.parentElement.remove();
       }
-    } */
+    }
 
   }
 
