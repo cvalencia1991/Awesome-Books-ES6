@@ -53,3 +53,10 @@ li{
     border: 1px solid black;
     margin-top: 1em;
 }
+
+.bookstyle{
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-between;
+}
