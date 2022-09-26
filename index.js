@@ -12,7 +12,6 @@ form.addEventListener('submit',(event)=>{
     let bookslist = new books(Author,book);
     const ui = new methods();
     ui.addbook(bookslist);
-    debugger;
-    event.prevenDefault();
+    event.preventDefault();
 });
 

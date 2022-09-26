@@ -1,9 +1,9 @@
 
-import {books} from "./Constructor.js";
+/* import {books} from "./Constructor.js"; */
 
 
 export class methods {
-  addbook =(event)=> {
+  addbook =(books)=> {
     const productCard = document.getElementById('booklist');
     const element = document.createElement('div');
     element.classList.add('bookstyle');
@@ -14,7 +14,7 @@ export class methods {
       <div>
           `;
     productCard.appendChild(element);
-    event.preventDefault();
+/*     debugger; */
     }
 /*
     resetform() {
