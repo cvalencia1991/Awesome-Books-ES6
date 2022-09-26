@@ -12,10 +12,10 @@ export class methods {
           `;
     productCard.appendChild(element);
     }
-    resetform() {
+    resetform =()=> {
       document.getElementById('books').reset();
     }
-    removebook(element) {
+    removebook =(element)=> {
       if (element.name === 'deletebook') {
         element.parentElement.parentElement.remove();
       }
