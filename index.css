@@ -1,3 +1,6 @@
+body {
+  font-family: cursive;
+}
 
 li {
   text-decoration: none;
@@ -70,4 +73,5 @@ li {
 .stylecontact {
   display: flex;
   flex-direction: column;
+  font-size: small;
 }

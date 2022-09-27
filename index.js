@@ -47,7 +47,7 @@ contact.addEventListener('click', (event) => {
   const element2 = document.createElement('div');
   element2.classList.add('stylecontact');
   element2.innerHTML = `
-            <p>Do you have any questions or just want to say "Helo"?<br>
+            <p>Do you have any questions or just want to say "Hello"?<br>
             You can reach out to us!<br><br>
             <ul>
                 <li>Our email: ceservalencia@gmail.com</li>
