@@ -1,3 +1,4 @@
+/* eslint-disable new-cap */
 import { books } from './modules/Constructor.js';
 import { methods } from './modules/methods.js';
 import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
