@@ -1,69 +1,73 @@
-/* stylelint-disable no-missing-end-of-source-newline */
-/* stylelint-disable indentation */
-/* stylelint-disable block-opening-brace-space-before */
-li{
-    text-decoration: none;
-    list-style: none;
+
+li {
+  text-decoration: none;
+  list-style: none;
 }
 
 .stylenav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid black;
-    padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1em;
 }
 
-.styleitems{
-    display: flex;
-    text-decoration: none;
-    gap: 10px;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-}
-.styledate{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.styleitems {
+  display: flex;
+  text-decoration: none;
+  gap: 10px;
+  align-items: center;
+  padding: 1px;
+  margin: 1px;
 }
 
-#headtittle{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.styledate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.formadd{
-    display: none;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 5px;
+#headtittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.styleform{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.formadd {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
 }
 
-.stylefooter{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    border: 1px solid black;
-    margin-top: 1em;
+.styleform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.bookstyle{
-    display: flex;
-    border: 2px solid black;
-    align-items: center;
-    justify-content: space-between;
+.stylefooter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border: 1px solid black;
+  margin-top: 1em;
 }
 
-#booklist{
-    display: flex;
-    flex-direction: column;
+.bookstyle {
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#booklist {
+  display: flex;
+  flex-direction: column;
+}
+
+.stylecontact {
+  display: flex;
+  flex-direction: column;
 }
