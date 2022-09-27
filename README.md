@@ -11,14 +11,14 @@ if you want this project, follow the next intruccions:
 To get a local copy up and running follow these simple example steps.
 
  - go to the code the repository Awesome Book
- - Copy the next link https://github.com/cvalencia1991/Awesomebooks.git
+ - Copy the next link https://github.com/cvalencia1991/Awesome-Books-ES6.git
  - Use Git to clone the repository on the file you want to put it
  - Inside of the folder install the next Webpack npm install --save luxon
  - Enjoy :)
 
 ### Links
 
-- Live Site URL: [see live demo](https://cvalencia1991.github.io/Awesomebooks/)
+- Live Site URL: [See live demo](https://cvalencia1991.github.io/Awesomebooks/)
 
 
 
@@ -28,11 +28,9 @@ To get a local copy up and running follow these simple example steps.
 - Technologies used Github, Git, VSCode.
 
 
-## Authors
+## Author
 
-👤 **Author1**
-
-Cesar Alberto Valencia Aguilar
+👤 **Cesar Alberto Valencia Aguilar**
 
 - GitHub: [https://github.com/cvalencia1991](https://github.com/cvalencia1991)
 - Twitter: [https://twitter.com/cvalenciaguilar](@cvalenciaguilar)
@@ -43,7 +41,7 @@ Cesar Alberto Valencia Aguilar
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/cvalencia1991/Awesome-Books-ES6/issues).
 
 ## Show your support
 
