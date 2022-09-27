@@ -1,4 +1,3 @@
-
 export class methods {
   addbook =(books)=> {
     const productCard = document.getElementById('booklist');

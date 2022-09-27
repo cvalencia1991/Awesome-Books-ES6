@@ -26,7 +26,7 @@ li{
     justify-content: flex-end;
 }
 
-.stylehead{
+#headtittle{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,7 +34,7 @@ li{
 }
 
 .formadd{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-end;
     gap: 5px;
@@ -59,4 +59,9 @@ li{
     border: 2px solid black;
     align-items: center;
     justify-content: space-between;
+}
+
+#booklist{
+    display: flex;
+    flex-direction: column;
 }
