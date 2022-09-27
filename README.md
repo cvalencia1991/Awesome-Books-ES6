@@ -12,14 +12,9 @@ To get a local copy up and running follow these simple example steps.
 
  - go to the code the repository Awesome Book
  - Copy the next link https://github.com/cvalencia1991/Awesome-Books-ES6.git
- - Use Git to clone the repository on the file you want to put it
+ - Use Git to clone the repository on the site you want to put 
  - Inside of the folder install the next Webpack npm install --save luxon
  - Enjoy :)
-
-### Links
-
-- Live Site URL: [See live demo](https://cvalencia1991.github.io/Awesomebooks/)
-
 
 
 ## Built With
