@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome Books: refactor to use JavaScript classes
+# Awesome Books: ECMAScript 2016
 
 > In this project, I create the Awesome Books using ECMAScript 2016
 
