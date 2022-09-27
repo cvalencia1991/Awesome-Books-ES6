@@ -1,10 +1,12 @@
+/* stylelint-disable no-missing-end-of-source-newline */
+/* stylelint-disable indentation */
+/* stylelint-disable block-opening-brace-space-before */
 li{
     text-decoration: none;
     list-style: none;
 }
 
-
-.stylenav{
+.stylenav {
     display: flex;
     justify-content: space-between;
     align-items: center;
