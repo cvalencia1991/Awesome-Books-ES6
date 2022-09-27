@@ -1,0 +1,77 @@
+body {
+  font-family: cursive;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.stylenav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.styleitems {
+  display: flex;
+  text-decoration: none;
+  gap: 10px;
+  align-items: center;
+  padding: 1px;
+  margin: 1px;
+}
+
+.styledate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#headtittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formadd {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.styleform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stylefooter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border: 1px solid black;
+  margin-top: 1em;
+}
+
+.bookstyle {
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#booklist {
+  display: flex;
+  flex-direction: column;
+}
+
+.stylecontact {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
