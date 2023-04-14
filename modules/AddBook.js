@@ -1,7 +1,7 @@
+import getBooks from './getBooks.js';
 import Methods from './methods.js';
 
 export default function addbook(event) {
-  event.preventDefault();
   const Author = document.getElementById('Author').value;
   const book = document.getElementById('Book').value;
   const ui = new Methods(book, Author);
@@ -19,4 +19,6 @@ export default function addbook(event) {
     booksListItems.push(books);
     localStorage.setItem('books', JSON.stringify(booksListItems));
   }
+  getBooks();
+  event.preventDefault();
 }
