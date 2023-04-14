@@ -1,26 +1,26 @@
-/* eslint-disable import/prefer-default-export */
-export class methods {
-  addbook =(books) => {
+export default class Methods {
+  constructor(Book, Author) {
+    this.Book = Book;
+    this.Author = Author;
+  }
+
+  addbook() {
     const productCard = document.getElementById('booklist');
-    const element = document.createElement('div');
-    element.classList.add('bookstyle');
+    const element = document.getElementById('booklistinfo');
     element.innerHTML = `
-      "${books.Book}" by ${books.Author}
+      "${this.Book}" by ${this.Author}
       <div>
       <button type="button" name="deletebook">remove</button>
       <div>
           `;
     productCard.appendChild(element);
-    this.resetform();
+    document.getElementById('booksform').reset();
   }
 
-    resetform =() => {
-      document.getElementById('booksform').reset();
+  removebook(element) {
+    this.element = element;
+    if (this.element.name === 'deletebook') {
+      element.parentElement.parentElement.remove();
     }
-
-    removebook =(element) => {
-      if (element.name === 'deletebook') {
-        element.parentElement.parentElement.remove();
-      }
-    }
+  }
 }
