@@ -59,10 +59,7 @@ li {
 }
 
 .bookstyle {
-  display: flex;
   border: 2px solid black;
-  align-items: center;
-  justify-content: space-between;
 }
 
 #booklist {
@@ -74,4 +71,11 @@ li {
   display: flex;
   flex-direction: column;
   font-size: small;
+}
+
+.bookElement{
+  display: flex;
+  justify-content: space-between;
+  padding: 0em;
+  margin-bottom: 1em;
 }

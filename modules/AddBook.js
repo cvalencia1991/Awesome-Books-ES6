@@ -5,6 +5,7 @@ export default function addbook(event) {
   const Author = document.getElementById('Author').value;
   const book = document.getElementById('Book').value;
   const ui = new Methods(book, Author);
+  ui.addbook();
   const books = {
     book,
     Author,
@@ -18,5 +19,4 @@ export default function addbook(event) {
     booksListItems.push(books);
     localStorage.setItem('books', JSON.stringify(booksListItems));
   }
-  ui.addbook();
 }
