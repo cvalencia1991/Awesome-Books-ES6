@@ -1,12 +1,15 @@
+import getBooks from './getBooks.js';
+
 const styleHeader = document.getElementById('headtittle');
 const statusbooks = document.getElementById('booksform');
 const cardbook = document.getElementById('booklist');
 
 export default function showList(event) {
-  event.preventDefault();
+  getBooks();
   styleHeader.textContent = 'All Awesome Books';
   statusbooks.style.display = 'none';
   cardbook.style.display = 'flex';
+  event.preventDefault();
 }
 
 export function addNew(event) {

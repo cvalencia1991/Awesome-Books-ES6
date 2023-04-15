@@ -87,4 +87,21 @@ li {
   flex-direction: column;
   align-items: center;
   margin: 1em;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.success{
+  background: #36de36;
+  color: white;
+}
+.alert{
+  background: red;
+  color: white;
+}
+
+.styleInfoMessage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

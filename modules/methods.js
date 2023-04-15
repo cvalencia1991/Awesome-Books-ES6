@@ -23,6 +23,7 @@ export default class Methods {
       const books = JSON.parse(localStorage.getItem('books'));
       const filteredBooks = books.filter((b) => b.book !== element.title);
       localStorage.setItem('books', JSON.stringify(filteredBooks));
+      this.showMessage('remove Book Succesfully', 'success');
       element.parentElement.parentElement.remove();
     }
   }
@@ -31,6 +32,12 @@ export default class Methods {
     this.message = message;
     const div = document.getElementById('messageinfo');
     div.className = `alertMessage ${cssClass}`;
-    div.appendChild(document.createTextNode(this.message));
+    const elementDiv = document.createElement('div');
+    elementDiv.innerHTML = `${this.message}`;
+    elementDiv.className = 'infoMessage';
+    div.appendChild(elementDiv);
+    setTimeout(() => {
+      document.querySelector('.infoMessage').remove();
+    }, 3000);
   }
 }
