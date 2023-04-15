@@ -9,7 +9,15 @@ const addnew = document.getElementById('addnew');
 const list = document.getElementById('list');
 const contact = document.getElementById('contact');
 
-document.getElementById('date').innerText = DateTime.now();
+const date = document.getElementById('date');
+
+const updateTime = () => {
+  const now = DateTime.now();
+  const dateString = now.toFormat('MM-dd-yyyy');
+  const timeString = now.toFormat('hh:mm:ss a');
+  date.innerHTML = `${dateString} - ${timeString}`;
+};
+setInterval(updateTime, 1000);
 
 cardbook.addEventListener('click', RemoveBook);
 list.addEventListener('click', showList);
