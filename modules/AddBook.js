@@ -2,6 +2,7 @@ import getBooks from './getBooks.js';
 import Methods from './methods.js';
 
 export default function addbook(event) {
+  event.preventDefault();
   const Author = document.getElementById('Author').value;
   const book = document.getElementById('Book').value;
   const ui = new Methods(book, Author);
@@ -9,20 +10,16 @@ export default function addbook(event) {
     book,
     Author,
   };
-  if (Author === '' || book === '') {
-    return ui.showMessage('please add fields', 'success');
-  }
   if (localStorage.getItem('books') === null) {
     const booksListItems = [];
     booksListItems.push(books);
+    ui.addbook();
     localStorage.setItem('books', JSON.stringify(booksListItems));
   } else {
     const booksListItems = JSON.parse(localStorage.getItem('books'));
     booksListItems.push(books);
     localStorage.setItem('books', JSON.stringify(booksListItems));
   }
-  ui.addbook();
   getBooks();
-  event.preventDefault();
   return ui.showMessage('book succesfuly added', 'success');
 }
