@@ -10,7 +10,7 @@ export default class Methods {
     element.innerHTML = `
       "${this.Book}" by ${this.Author}
       <div>
-      <button type="button" name="deletebook">remove</button>
+      <button type="button" title="${this.Book}" name="deletebook">remove</button>
       <div>
           `;
     productCard.appendChild(element);
@@ -20,6 +20,9 @@ export default class Methods {
   removebook(element) {
     this.element = element;
     if (this.element.name === 'deletebook') {
+      const books = JSON.parse(localStorage.getItem('books'));
+      const filteredBooks = books.filter((b) => b.book !== element.title);
+      localStorage.setItem('books', JSON.stringify(filteredBooks));
       element.parentElement.parentElement.remove();
     }
   }

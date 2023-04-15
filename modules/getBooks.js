@@ -5,9 +5,9 @@ export default function getBooks() {
   for (let i = 0; i < books.length; i += 1) {
     element.innerHTML += `
     <div class="bookElement">
-        "${books[i].Author}" by ${books[i].book}
+        "${books[i].book}" by ${books[i].Author}
         <div>
-        <button type="button" name="deletebook">remove</button>
+        <button type="button" title="${books[i].book}" name="deletebook">remove</button>
         </div>
     </div>
         `;
