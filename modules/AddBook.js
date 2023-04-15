@@ -20,5 +20,6 @@ export default function addbook(event) {
     localStorage.setItem('books', JSON.stringify(booksListItems));
   }
   getBooks();
+  ui.showMessage('book succesfuly added', 'success');
   event.preventDefault();
 }

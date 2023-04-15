@@ -26,4 +26,11 @@ export default class Methods {
       element.parentElement.parentElement.remove();
     }
   }
+
+  showMessage(message, cssClass) {
+    this.message = message;
+    const div = document.getElementById('messageinfo');
+    div.className = `alertMessage ${cssClass}`;
+    div.appendChild(document.createTextNode(this.message));
+  }
 }

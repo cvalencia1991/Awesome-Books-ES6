@@ -58,9 +58,6 @@ li {
   margin-top: 1em;
 }
 
-.bookstyle {
-  border: 2px solid black;
-}
 
 #booklist {
   display: flex;
@@ -78,4 +75,16 @@ li {
   justify-content: space-between;
   padding: 0em;
   margin-bottom: 1em;
+}
+
+.messageinfo{
+  display: flex;
+  justify-content: center;
+}
+
+.alertMessage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
 }
